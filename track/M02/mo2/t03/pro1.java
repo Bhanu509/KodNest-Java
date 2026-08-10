@@ -5,7 +5,7 @@ public class pro1 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        // System.out.println("Enter number of Practice days:");
+        System.out.println("Enter number of Practice days:");
         int a = scan.nextInt();
         System.out.println(a);
         System.out.println("enter number of problems solved in a day: ");
@@ -15,8 +15,10 @@ public class pro1 {
         System.out.println("Total solved: " + total);
         if (total >= 20) {
             System.out.println("Status: Strong progress");
-        } else {
+        } else if (total <= 10 && total < 20) {
             System.out.println("keep improving");
+        } else {
+            System.out.println("Need more practice");
         }
     }
 }
