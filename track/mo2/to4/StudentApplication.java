@@ -1,4 +1,6 @@
 
+package to4;
+
 class StudentApplication {
 
     public static void main(String[] args) {
