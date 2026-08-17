@@ -21,7 +21,7 @@ class Mobile {
 
     }
 
-    void unlock(Finger f) {
+    void unlock(Finger fp) {
         System.out.println("unlock using finger print");
 
     }

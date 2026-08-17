@@ -1,8 +1,16 @@
 public class MobileUnlock{
+    
     public static void main(String[] args){
-        MobileUnlock m=new  MobileUnlock();
+        Mobile m=new  Mobile();
         m.unlock(1234);
-        m.unlock
+        m.unlock="abcd";
+        Finger fp=new Finger();
+        Pattern p=new Pattern();
+        Face f=new Face();
+        m.unlock(f);
+        m.Unlock(fp);
+        m.Unlock(p);
+
 
     }
 }
